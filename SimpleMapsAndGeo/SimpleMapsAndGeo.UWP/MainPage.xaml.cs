@@ -20,7 +20,7 @@ namespace SimpleMapsAndGeo.UWP
         public MainPage()
         {
             this.InitializeComponent();
-
+            global::Xamarin.FormsMaps.Init("hK24egEkYCnINavlO25O~V2FUhVpB9_rMic5luUrrmQ~AiGzgFc1KZbLqqGlbDbEBiFhOhDoPbpKJsQZdfbG3AeHA1Au7LFhtBVri6lSmyWL");
             LoadApplication(new SimpleMapsAndGeo.App());
         }
     }

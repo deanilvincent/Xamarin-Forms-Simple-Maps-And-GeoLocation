@@ -1,5 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.SimpleMapsAndGeo">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.SimpleMapsAndGeo" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="15" />
-	<application android:label="SimpleMapsAndGeo.Android"></application>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<application android:label="SimpleMapsAndGeo.Android">
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyAYj8b5gi1G1o1BVfyhkJNXLGx0_3ELMgw"/>
+  </application>
 </manifest>
