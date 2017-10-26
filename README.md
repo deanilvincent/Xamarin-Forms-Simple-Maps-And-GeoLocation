@@ -1,6 +1,6 @@
 # Xamarin-Forms-Simple-Maps-And-GeoLocation
 
-This repository is intended for source code demo purposes. This repo contains Cross Platform Xamarin Project that shows current geolocation, custom pin and maps. 
+This repository is intended for source code purposes. This repo contains Cross Platform Xamarin Project that shows current geolocation, custom pin and maps. 
 
 ## Setup
 Android:
