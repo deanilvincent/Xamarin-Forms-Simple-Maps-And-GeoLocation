@@ -1,4 +1,4 @@
-# Simple-Xamarin-Forms-Maps-And-GeoLocation
+# Xamarin-Forms-Simple-Maps-And-GeoLocation
 
 Android:
 
