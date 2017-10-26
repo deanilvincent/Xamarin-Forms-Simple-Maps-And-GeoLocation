@@ -12,7 +12,19 @@ Generate Api Key: https://console.cloud.google.com
 ```
 <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyAYj8b5gi1G1o1BVfyhkJNXLGx0_3ELMgw"/>
 ```
-
+4. Go to "Android Properties" and choose "Android Manifest"
+5. Check the following:
+    - ACCESS_COARSE_LOCATION
+    - ACCESS_FINE_LOCATION
+    - ACCESS_LOCATION_EXTRA_COMMANDS
+    - ACCESS_MOCK_LOCATION
+    - ACCESS_NETWORK_STATE
+    - ACCESS_WIFI_STATE
+    - INTERNET
+6. Go to MainActivity.cs and paste this above the "LoadApplication(new App());"
+```
+global::Xamarin.FormsMaps.Init(this, bundle);
+```
 iOS:
 1. Go to iOS Project
 2. Locate the Info.plist and right click then choose "Open With"...
@@ -24,10 +36,19 @@ iOS:
 <key>NSLocationWhenInUseUsageDescription</key>
     <string>We are using your location</string>
 ```
-
+5. Go to AppDelegate.cs and paste this above LoadApplication(new App());
+```
+global::Xamarin.FormsMaps.Init();  
+```
 UWP:
 
 Generate Api Key: https://www.bingmapsportal.com/Application
+1. Go to UWP Project
+2. Paste this inside the constructor of MainPage.xaml.cs
+Usage:
 ```
-hK24egEkYCnINavlO25O~V2FUhVpB9_rMic5luUrrmQ~AiGzgFc1KZbLqqGlbDbEBiFhOhDoPbpKJsQZdfbG3AeHA1Au7LFhtBVri6lSmyWL
+// Bing Map Api Key
+global::Xamarin.FormsMaps.Init("hK24egEkYCnINavlO25O~V2FUhVpB9_rMic5luUrrmQ~AiGzgFc1KZbLqqGlbDbEBiFhOhDoPbpKJsQZdfbG3AeHA1Au7LFhtBVri6lSmyWL");
+
+// hK24egEkYCnINavlO25O~V2FUhVpB9_rMic5luUrrmQ~AiGzgFc1KZbLqqGlbDbEBiFhOhDoPbpKJsQZdfbG3AeHA1Au7LFhtBVri6lSmyWL is the generated api key
 ```
