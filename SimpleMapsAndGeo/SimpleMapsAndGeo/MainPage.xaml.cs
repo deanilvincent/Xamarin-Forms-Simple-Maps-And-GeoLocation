@@ -20,6 +20,7 @@ namespace SimpleMapsAndGeo
                 // Getting current location
                 var locator = CrossGeolocator.Current;
 
+                // Getting position with arguments
                 var getPosition = await locator.GetPositionAsync(TimeSpan.FromSeconds(2), null, true);
 
                 var currentPosition = new Position(getPosition.Latitude, getPosition.Longitude);
