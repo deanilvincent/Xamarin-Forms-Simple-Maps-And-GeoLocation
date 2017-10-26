@@ -1,13 +1,16 @@
 # Simple-Xamarin-Forms-Maps-And-GeoLocation
 
 Android:
+`
 <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyAYj8b5gi1G1o1BVfyhkJNXLGx0_3ELMgw"/>
+`
 
 iOS:
-<key>NSLocationAlwaysUsageDescription</key>
+`<key>NSLocationAlwaysUsageDescription</key>
     <string>Can we use your location</string>
 <key>NSLocationWhenInUseUsageDescription</key>
-    <string>We are using your location</string>
+    <string>We are using your location</string>`
 
 UWP:
-hK24egEkYCnINavlO25O~V2FUhVpB9_rMic5luUrrmQ~AiGzgFc1KZbLqqGlbDbEBiFhOhDoPbpKJsQZdfbG3AeHA1Au7LFhtBVri6lSmyWL
+`
+hK24egEkYCnINavlO25O~V2FUhVpB9_rMic5luUrrmQ~AiGzgFc1KZbLqqGlbDbEBiFhOhDoPbpKJsQZdfbG3AeHA1Au7LFhtBVri6lSmyWL`
