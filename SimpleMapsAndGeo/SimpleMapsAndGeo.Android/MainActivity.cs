@@ -20,7 +20,7 @@ namespace SimpleMapsAndGeo.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
-            Xamarin.FormsMaps.Init(this, bundle);
+            global::Xamarin.FormsMaps.Init(this, bundle);
             LoadApplication(new App());
         }
     }
