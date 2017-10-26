@@ -17,7 +17,7 @@ iOS:
 
 UWP:
 
-https://www.bingmapsportal.com/Application
+Generate Api Key: https://www.bingmapsportal.com/Application
 ```
 hK24egEkYCnINavlO25O~V2FUhVpB9_rMic5luUrrmQ~AiGzgFc1KZbLqqGlbDbEBiFhOhDoPbpKJsQZdfbG3AeHA1Au7LFhtBVri6lSmyWL
 ```
