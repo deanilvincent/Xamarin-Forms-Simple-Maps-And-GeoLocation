@@ -15,31 +15,31 @@ namespace SimpleMapsAndGeo
         {
             InitializeComponent();
 
-            Task.Run(async () =>
-            {
-                // Getting current location
-                var locator = CrossGeolocator.Current;
+            //Task.Run(async () =>
+            //{
+            //    // Getting current location
+            //    var locator = CrossGeolocator.Current;
 
-                // Getting position with arguments
-                var getPosition = await locator.GetPositionAsync(TimeSpan.FromSeconds(2), null, true);
+            //    // Getting position with arguments
+            //    var getPosition = await locator.GetPositionAsync(TimeSpan.FromSeconds(2), null, true);
 
-                var currentPosition = new Position(getPosition.Latitude, getPosition.Longitude);
+            //    var currentPosition = new Position(getPosition.Latitude, getPosition.Longitude);
 
-                // Declare map details
-                MyMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(currentPosition.Latitude, currentPosition.Longitude), Distance.FromMiles(1)));
+            //    // Declare map details
+            //    MyMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(currentPosition.Latitude, currentPosition.Longitude), Distance.FromMiles(1)));
 
-                // Set pin to the location
-                var setPin = new Pin
-                {
-                    Type = PinType.Generic,
-                    Position = currentPosition,
-                    Address = "Custom Pin",
-                    Label = "Description of this pin"
-                };
+            //    // Set pin to the location
+            //    var setPin = new Pin
+            //    {
+            //        Type = PinType.Generic,
+            //        Position = currentPosition,
+            //        Address = "Custom Pin",
+            //        Label = "Description of this pin"
+            //    };
 
-                // Now add the pin to the map
-                MyMap.Pins.Add(setPin);
-            });
+            //    // Now add the pin to the map
+            //    MyMap.Pins.Add(setPin);
+            //});
         }
     }
 }
