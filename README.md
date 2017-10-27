@@ -55,3 +55,5 @@ global::Xamarin.FormsMaps.Init("hK24egEkYCnINavlO25O~V2FUhVpB9_rMic5luUrrmQ~AiGz
 
 // hK24egEkYCnINavlO25O~V2FUhVpB9_rMic5luUrrmQ~AiGzgFc1KZbLqqGlbDbEBiFhOhDoPbpKJsQZdfbG3AeHA1Au7LFhtBVri6lSmyWL is the generated api key
 ```
+3. Locate and click the Package.appxmanifest file and choose "Capabilities"
+4. Check the "Internet" and "Location"
