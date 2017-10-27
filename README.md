@@ -25,6 +25,9 @@ Generate Api Key: https://console.cloud.google.com
 ```
 global::Xamarin.FormsMaps.Init(this, bundle);
 ```
+
+Running Google Maps in Android Emulator requires "Google Play Services." Download Gapps Zip file here http://www.teamandroid.com/gapps/ and drag-and-drop to your running android emulator: 
+
 iOS:
 1. Go to iOS Project
 2. Locate the Info.plist and right click then choose "Open With"...
